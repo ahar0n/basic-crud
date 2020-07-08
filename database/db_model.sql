@@ -1,5 +1,5 @@
-create database proyecto;
-use proyecto;
+create database crud;
+use crud;
 
 create table cliente(
   id int(5) not null auto_increment,
