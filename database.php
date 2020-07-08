@@ -9,7 +9,7 @@
 
 class Database{
     private static $dbHost = '127.0.0.1:3306';
-    private static $dbName = 'proyecto';
+    private static $dbName = 'crud';
     private static $dbUser = 'root';
     private static $dbUserPass = 'mysqlroot';
 

@@ -1,11 +1,11 @@
-create database crud;
-use crud;
+CREATE DATABASE crud;
+USE crud;
 
-create table cliente(
-  id int(5) not null auto_increment,
-  nombre varchar(50) not null,
-  apellido varchar(50) not null,
-  telefono int(9) not null,
-  email varchar(100) not null,
-  primary key (id)
+CREATE TABLE cliente(
+  id int(5) NOT NULL AUTO_INCREMENT,
+  nombre varchar(50) NOT NULL,
+  apellido varchar(50) NOT NULL,
+  telefono int(9) NOT NULL,
+  email varchar(100) NOT NULL,
+  PRIMARY KEY (id)
 );
