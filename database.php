@@ -10,8 +10,8 @@
 class Database{
     private static $dbHost = '127.0.0.1:3306';
     private static $dbName = 'crud';
-    private static $dbUser = 'root';
-    private static $dbUserPass = 'mysqlroot';
+    private static $dbUser = '';
+    private static $dbUserPass = '';
 
     /** $dbh DataBase Handle, nombre habitualmente asignado a un objeto PDO */
     private static $dbh = null;
